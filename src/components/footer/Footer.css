@@ -1,0 +1,32 @@
+.container6{
+    width: 100%;
+    background-image: linear-gradient(to right, #6b2cf5, #d450e6);
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.copy{
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+}
+
+.social{
+    display: flex;
+    flex-direction: row;
+}
+
+.bl{
+    width: 40px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 40px;
+    background-color: transparent;
+    border-radius: 50%;
+    outline: 3px white solid;
+    transition: 0.4s;
+    margin: 10px;
+}

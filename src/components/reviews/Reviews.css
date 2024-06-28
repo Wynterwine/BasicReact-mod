@@ -1,0 +1,362 @@
+.container4{
+    width: 100%;
+    background-color: var(--light-bc);
+    height: 200vh;
+    display: block;
+    overflow: hidden;
+    padding-left: 8%;
+    padding-right: 8%;
+    margin-top: -7px;
+    justify-content: space-between;
+}
+
+
+.slide-content{
+    width: 180vh;
+    position: absolute;
+    height: 60vh;
+    left: 20vh;
+    top: 250%;
+    z-index: 2;
+    background-image: linear-gradient(to right, #6b2cf5, #d450e6);
+    border-radius: 40px;
+    text-align: center;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+
+}
+
+.reviewtxt{
+    margin-top: 20px;
+    color: white;
+    letter-spacing: 1px;
+}
+
+.pricinglist{
+    width: 100%;
+    height: 28rem;
+}
+
+
+.ball01{
+    position: absolute;
+    content: '';
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    right: 20vh;
+    top: 109rem;
+    z-index: 1;
+    background: linear-gradient(to right, #6b2cf5, #d450e6);
+    animation: object01 6s linear infinite;
+}
+
+.ball02{
+    position: absolute;
+    content: '';
+    height: 260px;
+    width: 260px;
+    border-radius: 50%;
+    top: 105rem;
+    left: 10vh;
+    background: linear-gradient(to right, #6b2cf5, #d450e6);
+    animation: object02 6s linear infinite;
+
+}
+
+.ball03{
+    position: absolute;
+    content: '';
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    top: 140rem;
+    left: 23vh;
+    background: linear-gradient(to right, #6b2cf5, #d450e6);
+    animation: object03 6s linear infinite;
+}
+
+.ball04{
+    position: absolute;
+    content: '';
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    right: 20vh;
+    top: 135rem;
+    background: linear-gradient(to right, #6b2cf5, #d450e6);
+    animation: object04 6s linear infinite;
+}
+
+@keyframes object01 {
+    50%{
+        right: 21vh;
+        top: 107rem;
+    }
+}
+
+@keyframes object02 {
+    50%{
+        top: 105rem;
+        left: 8vh;
+    }
+}
+
+@keyframes object03 {
+    50%{
+        top: 140.9rem;
+        left: 24vh;
+    }
+}
+
+
+@keyframes object04 {
+    50%{
+        right: 22vh;
+        top: 135.9rem;
+
+    }
+} 
+
+.mySwiper2 {
+    margin-top: 26px;
+    width: 160vh;
+    height: 40vh;
+    padding: 5px;
+   
+   
+  }
+  
+.swiperslide2 {
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+  }  
+
+.img-rev{
+    width: 100%;
+    object-fit: cover;
+    display: relative;
+    border-radius: 5vh;
+    width: 4rem;
+    height: 4rem;
+    margin: 2px;
+    outline: 2px purple solid;
+    
+}
+
+.textperson h5{
+    margin: 2px;
+    color: black;
+}
+
+.textperson p{
+    text-align: center;
+    font-size: 15px;
+    padding-left: 20px; 
+    color: black;
+}
+
+
+/* ===============PRICING LIST==================== */
+
+.pricinglist-container{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 114rem;
+    font-size: 28px;
+    font-weight: 800;
+    
+}
+
+.pricinglist-container{
+    font-size: 28px;
+    font-weight: 800;
+    text-align: center;
+    color: var(--light-text);
+    
+}
+
+
+.pricinglist{
+    display: flex;
+    width: 60rem;
+    height: 27rem;
+    right: 10%;
+    margin: 6% 12%;
+    justify-content: center;
+}
+
+.price-main{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 2px 4px 4px rgba(0, 0, 0, 0.5);
+    width: 20rem;
+    height: 28rem;
+    border-radius: 30px;
+    z-index: 1;
+    color: black;
+}
+
+.price-main:hover{
+    background-color: rgb(240, 240, 240);
+}
+
+.price-main-overlay{
+    width: 136px;
+    height: 60px;
+    top: 90px;
+    position: absolute;
+    background: linear-gradient(to right, #6b2cf5, #d450e6);
+    border-radius: 10px;
+    text-align: center;
+    justify-content: center;
+}
+.txt-over-main{
+    display: block;
+    font-size: 25px;
+    font-weight: 700;
+    margin-top: 10px;
+    color: white;
+    letter-spacing: 1px;
+    
+}
+.pm{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 40px;
+    
+}
+
+.pricetag{
+    font-size: 50px;
+    display: flex;
+    margin: 5px;
+    
+}
+.line{
+    content: '';
+    width: 200px;
+    height: 3px;
+    background-color: black;
+    margin-bottom: 10px;
+}
+
+.pl{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+.prices-list li{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    align-items: center;
+    text-align: center;
+    
+}
+
+
+.bcheck{
+    display: block;
+    content: '';
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-image: linear-gradient(to right, #6b2cf5, #d450e6);
+}
+
+.pricedesc{
+    display: block;
+    font-size: 15px;
+}
+
+.price-sub{
+    width: 60rem;
+    height: 27rem;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.price-sub1{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 2px 4px 4px rgba(0, 0, 0, 0.5);
+    width: 19rem;
+    height: 25rem;
+    border-radius: 30px;
+    margin: 0 30px;
+    color: black;
+}
+.price-sub1:hover{
+    background-color: rgb(240, 240, 240);
+}
+.price-sub1-overlay{
+    width: 130px;
+    height: 55px;
+    top: -10px;
+    position: absolute;
+    color: black;
+    background: linear-gradient(to right, #6b2cf5, #d450e6);
+    border-radius: 10px;
+    text-align: center;
+    justify-content: center;
+}
+
+.txt-over{
+    display: block;
+    font-size: 25px;
+    font-weight: 700;
+    margin-top: 10px;
+    color: white;
+    letter-spacing: 1px;
+}
+
+.price-sub2{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 2px 4px 4px rgba(0, 0, 0, 0.5);
+    width: 19rem;
+    height: 25rem;
+    border-radius: 30px;
+    margin: 0 30px;
+    color: black;
+}
+
+.price-sub2:hover{
+    background-color: rgb(240, 240, 240);
+}
+.price-sub2-overlay{
+    width: 130px;
+    height: 55px;
+    top: -10px;
+    position: absolute;
+    color: black;
+    background: linear-gradient(to right, #6b2cf5, #d450e6);
+    border-radius: 10px;
+    text-align: center;
+    justify-content: center;
+}
+.txt-over2{
+    display: block;
+    font-size: 25px;
+    font-weight: 700;
+    margin-top: 10px;
+    color: white;
+    letter-spacing: 1px;
+}
+
